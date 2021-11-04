@@ -1,0 +1,58 @@
+.mobile {
+  float: left;
+  align-items: center;
+  padding: 2%;
+  margin: 15px;
+  width: 90%;
+  height: 30%;
+  color: black;
+  border: 1px solid black;
+}
+.mobile > h2 {
+  font-size: 25px;
+  margin: 5px;
+  padding: 5px;
+}
+.mobile > ul {
+  font-size: 20px;
+  margin: 3px;
+  padding: 3px;
+}
+
+.computer,
+.PC_menu {
+  display: none;
+}
+.mobile_menu {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  margin: 0 5%;
+}
+
+.mobile_menu > ul > li {
+  font-size: 12px;
+  float: left;
+  margin: 1px;
+}
+
+.mobile_menu > ul > li > a {
+  display: block;
+  font-size: 15px;
+  border: 1px solid black;
+  padding: 2px;
+  text-align: center;
+  color: black;
+}
+.mobile_menu > ul > li > a:hover {
+  background: black;
+  color: white;
+}
+
+.foot {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  font-size: 14px;
+  color: darkgoldenrod;
+}

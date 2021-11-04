@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            table, td{
+                width: 600px;
+                height: 20px;
+                margin: 0px;
+                border: 1px solid black;
+                text-align: center;
+            }
+            .red{
+                background-color: rgba(240, 73, 73, 0.96);
+            }
+            .pink{
+                background-color: pink;
+            }
+            p:nth-child(1){ font-size: 80%}
+            p:nth-child(2){ font-size: 100%;}
+            p:nth-child(3){ font-size: 150%;}
+            p:nth-child(4){ font-size: 200%;}
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <table>
+            <thead class="red">
+                <tr>
+                <td>단위</td>
+                <td>설명</td>
+                </tr>
+            </thead>
+            <tr class="pink">
+                <td>%</td>
+                <td>백분율 단위</td>
+            </tr>
+            <tr class="yellow">
+                <td>em</td>
+                <td>배수 단위</td>
+            </tr>
+            <tr class="pink">
+                <td>px</td>
+                <td>픽셀 단위</td>
+            </tr>
+        </table>
+    </body>
+</html>
